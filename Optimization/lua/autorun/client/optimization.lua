@@ -51,7 +51,7 @@ TX:SetColor( Color( 0, 0, 255, 200 ) )
 TX:SetPos( 10, 10 )
 
 local YES = vgui.Create( "DButton", FR ) 
-YES:SetText( "Да" )
+YES:SetText( "Yes" )
 YES:SetFont( "DermaLarge" )
 YES:SetPos( 60, 160 )
 YES:SetSize( 130, 50 )
@@ -106,7 +106,7 @@ surface.SetDrawColor( Color( 255, 255, 255 ) )
 end
 
 local NO = vgui.Create( "DButton", FR ) 
-NO:SetText( "Нет" )
+NO:SetText( "No" )
 NO:SetFont( "DermaLarge" )
 NO:SetPos( 310, 160 )
 NO:SetSize( 130, 50 )
